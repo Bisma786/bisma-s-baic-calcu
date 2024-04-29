@@ -1,0 +1,30 @@
+{
+  "name": "bismas-basic-claculator",
+  "version": "1.0.0",
+  "description": "a basic calculator",
+  "main": "index.js",
+  "type": "module",
+  " bin": "basicalc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "add",
+    "subtract",
+    "division",
+    "modulus",
+    "exponential",
+    "multiply"
+  ],
+  "author": "Bisma The Gondal",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.20",
+    "login": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
